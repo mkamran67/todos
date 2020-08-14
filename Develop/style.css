@@ -1,0 +1,121 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1;
+}
+
+textarea {
+  background: transparent;
+  border: none;
+  resize: none;
+  color: #000000;
+  border-left: 1px solid black;
+  padding: 10px;
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: transparent;
+  color: black;
+  border-radius: 0;
+  border-bottom: 10px solid black;
+}
+
+.description {
+  white-space: pre-wrap;
+}
+
+.time-block {
+  text-align: center;
+  border-radius: 15px;
+}
+
+.row {
+  white-space: pre-wrap;
+  height: 80px;
+  border-top: 1px solid white;
+}
+
+.hour {
+  background-color: #ffffff;
+  color: #000000;
+  border-top: 1px dashed #000000;
+}
+
+.past {
+  background-color: #d3d3d3;
+  color: white;
+}
+
+.present {
+  background-color: #ff6961;
+  color: white;
+}
+
+.future {
+  background-color: #77dd77;
+  color: white;
+}
+
+.saveBtn {
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #06aed5;
+  color: white;
+}
+
+.saveBtn i:hover {
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Custom Styles */
+
+input {
+  font-size: 1.5rem;
+  border: none;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+input:hover {
+  cursor: pointer;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+input:focus {
+  outline: none;
+  border: 1px solid rgba(0, 0, 255, 0.5);
+}
+/* I have to use !important cause of MDB */
+input:focus + span {
+  background-color: rgba(0, 0, 255, 0.5) !important;
+  color: #ffffff;
+}
+
+i {
+  border-radius: 5px;
+  transition: all 350ms;
+}
+
+i:hover {
+  cursor: pointer;
+  background-color: black;
+  color: #ffffff;
+}
+
+span:hover {
+  cursor: default;
+}
+
+.container {
+  border: none !important;
+}
+
+.list-group-item {
+  border: none;
+}
